@@ -1,8 +1,8 @@
-import * as React from "react"
+import * as React  from 'react'
 import { connect } from "react-redux"
 import actions from "../store/actions/counter"
 import {Store, Counter} from "../types"
-
+import {Button, Rate } from "antd"
 
 interface IProps{
     number: number,
@@ -19,9 +19,10 @@ class CounterComponent extends React.Component<IProps> {
         return (
             <div>
                 <p>{number}</p>
-                <button onClick={add}>click Me Add</button><br />
+                <Button type="primary" onClick={add}>click Me Add</Button><br />
                 <button onClick={subtract}>click Me Subtract</button><br />
-                <button onClick={addAsync}>异步=1</button>
+                <button onClick={addAsync}>异步=1</button><br />
+                <Rate />
             </div>
         )
     }

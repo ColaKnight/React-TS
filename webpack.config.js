@@ -40,7 +40,7 @@ module.exports = {
         enforce:"pre",
         test:/\.js$/,
         loader:"source-map-loader"
-      }
+      },
     ]
   },
   // 插件的配置
