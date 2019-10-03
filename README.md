@@ -2,6 +2,8 @@ React-TypeScript全家桶
 
 Build Setup
 
+``` bash
+
 # install dependencies
 npm install
 
