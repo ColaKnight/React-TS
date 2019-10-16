@@ -2,7 +2,6 @@ import * as React from  "react"
 import * as ReactDOM from "react-dom"
 import { Provider } from 'react-redux'
 import store from "./store"
-
 import {BrowserRouter as Router, Route, Link} from "react-router-dom"
 import CounterComponent from "./components/Counter"
 import CounterComponent1 from "./components/Counter2"
@@ -26,6 +25,5 @@ ReactDOM.render((
             </React.Fragment>
         </Router>
     </Provider>
-   
-    ), document.getElementById("app")
+   ), document.getElementById("app")
 )
