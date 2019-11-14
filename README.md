@@ -1,7 +1,7 @@
 React+TypeScript全家桶
 ======================
 
-Build Setup
+#Build Setup
 
 ``` bash
 
